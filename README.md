@@ -1,2 +1,2 @@
-Jdbc　CRUD pratice
-JPA CRUD pratice
+JDBC CRUD pratice
+/JPA CRUD pratice
