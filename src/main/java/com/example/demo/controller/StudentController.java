@@ -26,7 +26,6 @@ public class StudentController {
 
     @PostMapping("/students/batch")
     public String insertList(@RequestBody List<Student> studentList){
-
       studentService.batchInsert(studentList);
         return"執行一批INSERT sql";
     }
@@ -40,6 +39,5 @@ public class StudentController {
     @GetMapping("/students/{studentId}")
     public Student select(@PathVariable Integer studentId){
         return studentService.getById(studentId);
-
     }
 }
